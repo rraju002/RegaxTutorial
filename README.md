@@ -25,10 +25,10 @@ Moving forward we will be looking at the email validation regex or, </br> `\b[a-
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
-Analyzing </br> `\b[a-z0-9#$_-]+@[a-z0-9]+\.[a-z]{2,3}\b/gi`</br> ...
+Analyzing... </br> `\b[a-z0-9#$_-]+@[a-z0-9]+\.[a-z]{2,3}\b/gi`</br> 
 - First lets start with defining some key terms... 
-The Alpha and Omega can in short be considered the beginning and end which ends in '\b' also known as "word boundaries." Word boundaries explain expressions need to be partnered as a stand-alone string, for example closed parentesis, without seperating spaces their validation is likely to fail due to it's inability to match with another component.
-- Considering the 1st group `[a-zA-Z0-9#$_-]+` ...
+- The Alpha and Omega can in short be considered the beginning and end which ends in '\b' also known as "word boundaries." Word boundaries explain expressions need to be partnered as a stand-alone string, for example closed parentesis, without seperating spaces their validation is likely to fail due to it's inability to match with another component.
+- Considering the 1st group... `[a-zA-Z0-9#$_-]+` 
 
 ### Anchors
 
