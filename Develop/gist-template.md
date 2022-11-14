@@ -1,6 +1,6 @@
-# Title (replace with your title)
+# Regex Tutorial
 
-Introductory paragraph (replace this with your text)
+As a Full-Stack Web Developer I found it important to explain the specifics of regex to ensure we understand what the search patterns are within the regex!
 
 ## Summary
 
