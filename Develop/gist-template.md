@@ -4,7 +4,9 @@ As a Full-Stack Web Developer I found it important to explain the specifics of r
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+Regex stands for "regular expression," a sequence of characters which define a specified search pattern. Most patterns are used via string-search algorithims such as the "find" function.  
+
+Moving forward we will be looking at the email validation regex or, </br> `\b[a-z0-9#$_-]+@[a-z0-9]+\.[a-z]{2,3}\b/gi`</br>
 
 ## Table of Contents
 
