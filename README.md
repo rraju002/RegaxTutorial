@@ -28,8 +28,9 @@ Moving forward we will be looking at the email validation regex or, </br> `\b[a-
 Analyzing... </br> `\b[a-z0-9#$_-]+@[a-z0-9]+\.[a-z]{2,3}\b/gi`</br> 
 - First lets start with defining some key terms... 
  - The Alpha and Omega can in short be considered the beginning and end which ends in '\b' also known as "word boundaries." Word boundaries explain expressions need to be partnered as a stand-alone string, for example closed parentesis, without seperating spaces their validation is likely to fail due to it's inability to match with another component.
-- Considering the 1st group... `[a-zA-Z0-9#$_-]+` 
 
+- Considering the 1st group... `[a-zA-Z0-9#$_-]+` 
+- Correlates w/ any upper or lower case letter along with any number and characters `#$_-`. The `-` used between the "a" and "z" fulfill the requirement of any letter variable between the two. With that said,`0-9` have the same meaning in regards to numerical values. The quantifier, (`+`) symbolizes any of the characters before may occur more than once ie `Rhowen_raju13`. 
 ### Anchors
 
 ### Quantifiers
