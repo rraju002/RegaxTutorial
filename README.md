@@ -85,6 +85,12 @@ if the Regex was `\b867530\b`, then only `867530` would match up but not `867530
 ### Look-ahead and Look-behind
 - 
 
+### Sources and References
+    * [regexr](https://regexr.com/)
+    * [GitHub](https://gist.github.com/Govepitr/66dbf4e2a570ce3e23bded2e0deae5d9#quantifiers)
+
+My Github [github] https://github.com/rraju002
+
 ## Author
 - Hello! My name is Rhowen Raju, a 20 year old full-stack web developer! I currently attend UC Riverisde as a third year Political Science major! I first became interested in Software Engineering after taking an Intro to CS course, from there I enrolled in UC Riverside's Engineering Bootcamp and completed a 6 month course to earn my certification as a Full-Stack Web Developer! I now operate as a Freelance Engineer and look forward to making your web development dreams a reality!
 
