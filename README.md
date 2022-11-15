@@ -63,8 +63,8 @@ if the Regex was `\b867530\b`, then only `867530` would match up but not `867530
 ### Character Classes
 - Referring to the characters inside the square brackets, they are the ones being matched. For instance `[abceasyas123]` will match `a`, `b`, `c`, `d`, `e`,`a`,`s`,`y`,`a`,`s`,`1`,`2`, or `3`. This states <i>any</i> character between `a` and `z` will match.
 
-No we aren't talking about your D&D half-orc Grumblethrust, we are referring to the the characters inside the square brackets. Those characters inside are the ones being matched, for example `[abceasyas123]` which will match `a`, `b`, `c`, `d`, `e`,`a`,`s`,`y`,`a`,`s`,`1`,`2`, or `3`. Seems like a lot, right? Well there's a <b>way</b> easier way to do lengthier parts, above you may have seen `[a-z]`, that states that <i>any</i> character between `a` and `z` will match(we ensured that both upper/lower case will also match with the `i` flag at the end). You can even get fancy like this `[a-z[aeiou]]` and match only the consonants, excluding every vowel!
 ### Flags
+- A flag regex would be considered `i` at the end of `\b[a-z0-9#$_-]+@[a-z0-9]+\.[a-z]{2,3}\b/i`, preventing us from having to type out `\b[a-zA-Z0-9#$_-]+@[a-zA-Z0-9]+\.[a-zA-Z]{2,3}\b/i`(note the addition of `A-Z`, with the `i` we don't need to put that in there as the flag provides that for us!). There is also the `g` flag, the `g` flag which provides a global search for the Regex definition matches, but you will have to include the upper cases.
 
 ### Grouping and Capturing
 
