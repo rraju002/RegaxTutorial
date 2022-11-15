@@ -39,7 +39,18 @@ Analyzing... </br> `\b[a-z0-9#$_-]+@[a-z0-9]+\.[a-z]{2,3}\b/gi`</br>
 - Examples: `rhowen_13``@``rojo29``.``com` or simple `rhowen_13@rojo29.com`!
 
 ### Anchors
+- `\b` is an anchor, serving the purpose of defining a "word boundary," provoking a "whole word" search. 
+- Example:
+if the Regex was `\b867530\b`, then only `867530` would match up but not `8675309`. 
+- Other anchor examples:
+`^` 
+`$`
 
+- ^RRRRR will match any string that starts with ^RRRRR
+
+- RRRRR$ will match any string that ends with RRRRR$
+
+- Anchors are a type of meta-character not matching any characters, rather matching specific positions.`^` matches the starting position right before the 1st character of the search string, in comparisson `$` matches the end of the last character, and `\b` defining the entire boundary of the search string.
 ### Quantifiers
 
 ### OR Operator
