@@ -31,6 +31,13 @@ Analyzing... </br> `\b[a-z0-9#$_-]+@[a-z0-9]+\.[a-z]{2,3}\b/gi`</br>
 
 - Considering the 1st group... `[a-zA-Z0-9#$_-]+` 
 - Correlates w/ any upper or lower case letter along with any number and characters `#$_-`. The `-` used between the "a" and "z" fulfill the requirement of any letter variable between the two. With that said,`0-9` have the same meaning in regards to numerical values. The quantifier, (`+`) symbolizes any of the characters before may occur more than once ie `Rhowen_raju13`. 
+
+- The `@` is required for emails.
+- `[a-z0-9]+` matches with any upper or lowercase letter and does the same with any number, therefore if one's username was `rojo29` the username would be accepted!
+-  `\.`, is the dot before the extension(`com`,`gov`,`ca`, etc.,).
+- `[a-z]{2,3}` holds the extension. `[a-z]` signfies any letter between A-Z will be accepted. The {2,3}`is a fixed quantifier, indicating the min. and max. length of the extension. 
+- Examples: `rhowen_13``@``rojo29``.``com` or simple `rhowen_13@rojo29.com`!
+
 ### Anchors
 
 ### Quantifiers
