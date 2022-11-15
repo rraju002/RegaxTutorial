@@ -77,6 +77,7 @@ if the Regex was `\b867530\b`, then only `867530` would match up but not `867530
 - Greedy and lazy quantifiers are related to the usage of quantifiers and what is being matched. Greedy quanitifiers match with as many items as possible such as `+` used above. However, a lazy match will attempt to match a Regex Pattern at least once.
 
 ### Boundaries
+- Boundaries are seen as `\b` at the start and end of the Regex, indicating a match will only occur if the string is matched in isolation. 
 
 ### Back-references
 
