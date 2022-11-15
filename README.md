@@ -61,7 +61,9 @@ if the Regex was `\b867530\b`, then only `867530` would match up but not `867530
 ### OR Operator
 
 ### Character Classes
+- Referring to the characters inside the square brackets, they are the ones being matched. For instance `[abceasyas123]` will match `a`, `b`, `c`, `d`, `e`,`a`,`s`,`y`,`a`,`s`,`1`,`2`, or `3`. This states <i>any</i> character between `a` and `z` will match.
 
+No we aren't talking about your D&D half-orc Grumblethrust, we are referring to the the characters inside the square brackets. Those characters inside are the ones being matched, for example `[abceasyas123]` which will match `a`, `b`, `c`, `d`, `e`,`a`,`s`,`y`,`a`,`s`,`1`,`2`, or `3`. Seems like a lot, right? Well there's a <b>way</b> easier way to do lengthier parts, above you may have seen `[a-z]`, that states that <i>any</i> character between `a` and `z` will match(we ensured that both upper/lower case will also match with the `i` flag at the end). You can even get fancy like this `[a-z[aeiou]]` and match only the consonants, excluding every vowel!
 ### Flags
 
 ### Grouping and Capturing
