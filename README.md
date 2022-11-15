@@ -73,8 +73,8 @@ if the Regex was `\b867530\b`, then only `867530` would match up but not `867530
 
 - Brackets `[]` define the character class. Any character inside the brackets will produce a match the Regex pattern. This is unless the negate character(`^`) precedes the characters in the class.`[a-z]` defines any character class that is within the alphabet (including both upper/lower cases because of `i`).
 
-
 ### Greedy and Lazy Match
+- Greedy and lazy quantifiers are related to the usage of quantifiers and what is being matched. Greedy quanitifiers match with as many items as possible such as `+` used above. However, a lazy match will attempt to match a Regex Pattern at least once.
 
 ### Boundaries
 
