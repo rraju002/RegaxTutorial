@@ -67,8 +67,12 @@ if the Regex was `\b867530\b`, then only `867530` would match up but not `867530
 - A flag regex would be considered `i` at the end of `\b[a-z0-9#$_-]+@[a-z0-9]+\.[a-z]{2,3}\b/i`, preventing us from having to type out `\b[a-zA-Z0-9#$_-]+@[a-zA-Z0-9]+\.[a-zA-Z]{2,3}\b/i`(note the addition of `A-Z`, with the `i` we don't need to put that in there as the flag provides that for us!). There is also the `g` flag, the `g` flag which provides a global search for the Regex definition matches, but you will have to include the upper cases.
 
 ### Grouping and Capturing
+- 
 
 ### Bracket Expressions
+
+- Brackets `[]` define the character class. Any character inside the brackets will produce a match the Regex pattern. This is unless the negate character(`^`) precedes the characters in the class.`[a-z]` defines any character class that is within the alphabet (including both upper/lower cases because of `i`).
+
 
 ### Greedy and Lazy Match
 
