@@ -52,6 +52,11 @@ if the Regex was `\b867530\b`, then only `867530` would match up but not `867530
 
 - Anchors are a type of meta-character not matching any characters, rather matching specific positions.`^` matches the starting position right before the 1st character of the search string, in comparisson `$` matches the end of the last character, and `\b` defining the entire boundary of the search string.
 ### Quantifiers
+- Quantifiers repeat the previous item 1 or more times. There's a large list of quanitifiers however `+` is part of that group, which states that the previous item(the collection of characters) can be repeated multiple times. Also known as a "greedy quantifier" because an item can be matched to it multiple times.
+
+- {2,3}` is a fixed quantifier, specifically stating the search must be between 2 and 3 characters.
+
+- There are also simpler quantifiers, for example `{3,}`, stating the preceeding item repeats at least 2 times. Also considered to be another example of a greedy quantidier because it is an item that can be matched multiple times.  
 
 ### OR Operator
 
