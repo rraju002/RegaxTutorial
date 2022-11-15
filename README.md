@@ -80,9 +80,12 @@ if the Regex was `\b867530\b`, then only `867530` would match up but not `867530
 - Boundaries are seen as `\b` at the start and end of the Regex, indicating a match will only occur if the string is matched in isolation. 
 
 ### Back-references
+- 
 
 ### Look-ahead and Look-behind
+- 
 
 ## Author
+- Hello! My name is Rhowen Raju, a 20 year old full-stack web developer! I currently attend UC Riverisde as a third year Political Science major! I first became interested in Software Engineering after taking an Intro to CS course, from there I enrolled in UC Riverside's Engineering Bootcamp and completed a 6 month course to earn my certification as a Full-Stack Web Developer! I now operate as a Freelance Engineer and look forward to making your web development dreams a reality!
 
 A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
